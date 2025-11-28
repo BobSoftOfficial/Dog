@@ -27,3 +27,5 @@ If store is 4 then it will break the program
 
 If it is not 1 or 2 or 3 or 4 it will print store.
 
+Every command in dog if it is a number or not it needs to be on a new line, it will ignore everything that has nothing to do with the dog command.
+And you cant put any text before or after a command.
