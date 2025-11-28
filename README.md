@@ -25,7 +25,11 @@ If store is 3 it will take your input, reset the program and put your input in t
 
 If store is 4 then it will break the program
 
-If it is not 1 or 2 or 3 or 4 it will print store.
+If store is 5 then store becomes the next line minus the first line
+
+If store is 6 then the line before dog becomes the line after
+
+If it is not 1 or 2 or 3 or 4 or 5 or 6 it will print store.
 
 Every command in dog if it is a number or not it needs to be on a new line, it will ignore everything that has nothing to do with the dog command.
 And you cant put any text before or after a command.
