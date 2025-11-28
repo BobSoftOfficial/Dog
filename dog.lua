@@ -23,6 +23,8 @@ while i <= #lines do
 			input = tonumber(io.read())
 			i = 0
 			lines[1] = input
+		elseif store == 4 then
+			break
 		else
 			io.write(store)
 		end
