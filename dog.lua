@@ -19,12 +19,18 @@ while i <= #lines do
 		elseif store == 2 then
 			i = lines[i+2]
 		elseif store == 3 then
-			io.write("")
 			input = tonumber(io.read())
 			i = 0
 			lines[1] = input
 		elseif store == 4 then
 			break
+
+		elseif store == 5 then
+			store = tonumber(lines[i+1]) - tonumber(lines[i-1])
+
+		elseif store == 6 then
+		    lines[tonumber(lines[i-1])] = lines[i+1]
+		
 		else
 			io.write(store)
 		end
