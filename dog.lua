@@ -15,7 +15,7 @@ while i <= #lines do
 	if lines[i] == "dog" then
 		store = tonumber(lines[i+1]) + tonumber(lines[i-1])
 		if store == 1 then
-			io.write(string.char(tonumber(lines[i+2]))
+			io.write(string.char(tonumber(lines[i+2])))
 		elseif store == 2 then
 			i = lines[i+2]
 		elseif store == 3 then
